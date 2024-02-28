@@ -3,8 +3,7 @@ package com.workintech.s17challenge.model;
 import org.springframework.stereotype.Component;
 
 @Component
-public class HighCourseGpa implements CourseGpa{
-
+public class HighCourseGpa implements CourseGpa {
 
     @Override
     public int getGpa() {
